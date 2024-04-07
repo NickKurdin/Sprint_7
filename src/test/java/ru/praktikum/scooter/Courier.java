@@ -10,6 +10,13 @@ public class Courier {
         this.password = password;
         this.firstName = firstName;
     }
+    public Courier(String login, String password){
+        this.login = login;
+        this.password = password;
+    }
+    public Courier(String password){
+        this.password = password;
+    }
     public Courier(){
     }
 
